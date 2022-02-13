@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_RISCV_I2C.srcs/sources_1/new/ALU.v" \
+"../../../../project_RISCV_I2C.srcs/sources_1/new/Control_Status_Reg.v" \
+"../../../../project_RISCV_I2C.srcs/sources_1/new/I2C.v" \
+"../../../../project_RISCV_I2C.srcs/sources_1/new/Interrupt_Controller.v" \
+"../../../../project_RISCV_I2C.srcs/sources_1/new/RF.v" \
+"../../../../project_RISCV_I2C.srcs/sources_1/new/addr_dec.v" \
+"../../../../project_RISCV_I2C.srcs/sources_1/new/buttons.v" \
+"../../../../project_RISCV_I2C.srcs/sources_1/new/dec.v" \
+"../../../../project_RISCV_I2C.srcs/sources_1/new/leds.v" \
+"../../../../project_RISCV_I2C.srcs/sources_1/new/miriscv_lsu.v" \
+"../../../../project_RISCV_I2C.srcs/sources_1/new/new_proc.v" \
+
+sv xil_defaultlib  \
+"../../../../project_RISCV_I2C.srcs/sources_1/new/miriscv_ram.sv" \
+"../../../../project_RISCV_I2C.srcs/sources_1/new/miriscv_top.sv" \
+
+verilog xil_defaultlib  \
+"../../../../project_RISCV_I2C.srcs/sim_1/new/tb_miriscv_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

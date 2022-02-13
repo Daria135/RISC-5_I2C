@@ -1,0 +1,19 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sim_1/new/tb_miriscv_top.v,1644671857,verilog,,,,tb_miriscv_top,,,,,,,,
+D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/ALU.v,1644498362,verilog,,D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/Control_Status_Reg.v,,ALU,,,,,,,,
+D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/Control_Status_Reg.v,1640279741,verilog,,D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/I2C.v,,Control_Status_Reg,,,,,,,,
+D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/I2C.v,1644742092,verilog,,D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/Interrupt_Controller.v,,I2C,,,,,,,,
+D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/Interrupt_Controller.v,1644498980,verilog,,D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/RF.v,,Interrupt_Controller,,,,,,,,
+D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/RF.v,1636979864,verilog,,D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/addr_dec.v,,RF,,,,,,,,
+D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/addr_dec.v,1644741724,verilog,,D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/buttons.v,,addr_dec,,,,,,,,
+D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/buttons.v,1644499053,verilog,,D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/dec.v,,buttons,,,,,,,,
+D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/dec.v,1640031650,verilog,,D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/leds.v,,dec,,,,,,,,
+D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/leds.v,1644499060,verilog,,D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/miriscv_lsu.v,,leds,,,,,,,,
+D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/miriscv_lsu.v,1644498658,verilog,,D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/new_proc.v,,miriscv_lsu,,,,,,,,
+D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/miriscv_ram.sv,1640031926,systemVerilog,,D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/miriscv_top.sv,,miriscv_ram,,,,,,,,
+D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/miriscv_top.sv,1644741880,systemVerilog,,,,miriscv_top,,,,,,,,
+D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/new_proc.v,1644498155,verilog,,,,new_proc,,,,,,,,
