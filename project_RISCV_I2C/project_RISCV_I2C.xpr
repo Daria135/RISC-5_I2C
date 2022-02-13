@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="40" Path="D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.xpr">
+<Project Version="7" Minor="40" Path="C:/Users/1/Documents/GitHub/RISC-5_I2C/project_RISCV_I2C/project_RISCV_I2C.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="ba1d0122b7bc408bb9fca6c76cdd0171"/>
@@ -61,7 +61,7 @@
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sources_1/new/ALU.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/ALU.v"/>
+          <Attr Name="ImportPath" Val="D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/ALU.v"/>
           <Attr Name="ImportTime" Val="1644498362"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -70,7 +70,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/Control_Status_Reg.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/Control_Status_Reg.v"/>
+          <Attr Name="ImportPath" Val="D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/Control_Status_Reg.v"/>
           <Attr Name="ImportTime" Val="1640279741"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -79,7 +79,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/I2C.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/I2C.v"/>
+          <Attr Name="ImportPath" Val="D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/I2C.v"/>
           <Attr Name="ImportTime" Val="1644742092"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -88,7 +88,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/Interrupt_Controller.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/Interrupt_Controller.v"/>
+          <Attr Name="ImportPath" Val="D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/Interrupt_Controller.v"/>
           <Attr Name="ImportTime" Val="1644498980"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -97,7 +97,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/RF.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/RF.v"/>
+          <Attr Name="ImportPath" Val="D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/RF.v"/>
           <Attr Name="ImportTime" Val="1636979864"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -106,7 +106,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/addr_dec.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/addr_dec.v"/>
+          <Attr Name="ImportPath" Val="D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/addr_dec.v"/>
           <Attr Name="ImportTime" Val="1644741724"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -115,7 +115,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/buttons.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/buttons.v"/>
+          <Attr Name="ImportPath" Val="D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/buttons.v"/>
           <Attr Name="ImportTime" Val="1644499053"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -124,7 +124,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/dec.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/dec.v"/>
+          <Attr Name="ImportPath" Val="D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/dec.v"/>
           <Attr Name="ImportTime" Val="1640031650"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -133,7 +133,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/leds.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/leds.v"/>
+          <Attr Name="ImportPath" Val="D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/leds.v"/>
           <Attr Name="ImportTime" Val="1644499060"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -142,7 +142,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/miriscv_lsu.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/miriscv_lsu.v"/>
+          <Attr Name="ImportPath" Val="D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/miriscv_lsu.v"/>
           <Attr Name="ImportTime" Val="1644498658"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -151,7 +151,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/new_proc.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/new_proc.v"/>
+          <Attr Name="ImportPath" Val="D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/new_proc.v"/>
           <Attr Name="ImportTime" Val="1644498155"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -160,7 +160,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/miriscv_ram.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/miriscv_ram.sv"/>
+          <Attr Name="ImportPath" Val="D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/miriscv_ram.sv"/>
           <Attr Name="ImportTime" Val="1640031926"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -169,56 +169,16 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/miriscv_top.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/miriscv_top.sv"/>
+          <Attr Name="ImportPath" Val="D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/miriscv_top.sv"/>
           <Attr Name="ImportTime" Val="1644741880"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/run.txt">
-        <FileInfo SFType="MIF">
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/run.txt"/>
-          <Attr Name="ImportTime" Val="1636993566"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/run6.txt">
-        <FileInfo SFType="MIF">
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/run6.txt"/>
-          <Attr Name="ImportTime" Val="1640283555"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/test_int.txt">
-        <FileInfo SFType="MIF">
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/test_int.txt"/>
-          <Attr Name="ImportTime" Val="1640276466"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/run7.txt">
-        <FileInfo SFType="MIF">
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/run7.txt"/>
-          <Attr Name="ImportTime" Val="1640772747"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/I2C.txt">
-        <FileInfo SFType="MIF">
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/I2C.txt"/>
-          <Attr Name="ImportTime" Val="1644654807"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/new/I2Cver2.txt">
         <FileInfo SFType="MIF">
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/I2Cver2.txt"/>
+          <Attr Name="ImportPath" Val="D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/I2Cver2.txt"/>
           <Attr Name="ImportTime" Val="1644746699"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -239,7 +199,7 @@
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sim_1/new/tb_miriscv_top.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/labs_aps.srcs/sim_1/new/tb_miriscv_top.v"/>
+          <Attr Name="ImportPath" Val="D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sim_1/new/tb_miriscv_top.v"/>
           <Attr Name="ImportTime" Val="1644671857"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -248,7 +208,7 @@
       </File>
       <File Path="$PSRCDIR/sim_1/imports/labs_aps/tb_miriscv_top_behav.wcfg">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/tb_miriscv_top_behav.wcfg"/>
+          <Attr Name="ImportPath" Val="D:/study/5_semestr/APS/labs_aps/tb_miriscv_top_behav.wcfg"/>
           <Attr Name="ImportTime" Val="1644742216"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -260,7 +220,7 @@
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
         <Option Name="SrcSet" Val="sources_1"/>
-        <Option Name="XSimWcfgFile" Val="$PPRDIR/../../../study/5_semestr/APS/labs_aps/tb_miriscv_top_behav.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="D:/study/5_semestr/APS/labs_aps/tb_miriscv_top_behav.wcfg"/>
         <Option Name="xsim.simulate.runtime" Val="300us"/>
       </Config>
     </FileSet>
