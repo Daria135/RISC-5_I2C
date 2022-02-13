@@ -89,12 +89,12 @@ begin
                 end
             endcase
         end
-        if (state == 3'd7 & cnt_clk != 9'd339) begin
+        if (state == 3'd7 & cnt_clk != 9'd249) begin
             if (num_byte == 1'b0) begin
                 wr_data_en_reg <= 2'b01;
             end
         end
-        if (cnt_clk != 9'd339) begin
+        if (cnt_clk != 9'd249) begin
             cnt_clk <= cnt_clk + 1'b1;
         end
         else begin       
