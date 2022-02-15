@@ -1,7 +1,7 @@
 module miriscv_ram
 #(
   parameter RAM_SIZE      = 256, // bytes
-  parameter RAM_INIT_FILE = "D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/run.txt"
+  parameter RAM_INIT_FILE = "I2Cver2.txt"
 )
 (
   // clock, reset

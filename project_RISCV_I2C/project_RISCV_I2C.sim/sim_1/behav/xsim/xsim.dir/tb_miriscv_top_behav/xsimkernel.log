@@ -2,3 +2,6 @@ Running: xsim.dir/tb_miriscv_top_behav/xsimk.exe -simmode gui -wdb tb_miriscv_to
 Design successfully loaded
 Design Loading Memory Usage: 5960 KB (Peak: 5960 KB)
 Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 11296 KB (Peak: 11296 KB)
+Simulation CPU Usage: 765 ms
