@@ -4,4 +4,24 @@ Running: D:/programs/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto b
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/1/Documents/GitHub/RISC-5_I2C/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/miriscv_top.sv" Line 1. Module miriscv_top(RAM_SIZE=1024,RAM_INIT_FILE="I2Cver2.txt") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/1/Documents/GitHub/RISC-5_I2C/project_RISCV_I2C/project_RISCV_I2C.srcs/sources_1/new/miriscv_ram.sv" Line 1. Module miriscv_ram(RAM_SIZE=1024,RAM_INIT_FILE="I2Cver2.txt") doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dec
+Compiling module xil_defaultlib.RF
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.miriscv_lsu
+Compiling module xil_defaultlib.Control_Status_Reg
+Compiling module xil_defaultlib.new_proc
+Compiling module xil_defaultlib.miriscv_ram(RAM_SIZE=1024,RAM_IN...
+Compiling module xil_defaultlib.Interrupt_Controller
+Compiling module xil_defaultlib.addr_dec
+Compiling module xil_defaultlib.leds
+Compiling module xil_defaultlib.buttons
+Compiling module xil_defaultlib.I2C
+Compiling module xil_defaultlib.miriscv_top(RAM_SIZE=1024,RAM_IN...
+Compiling module xil_defaultlib.tb_miriscv_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_miriscv_top_behav

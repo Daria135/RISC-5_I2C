@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/1/Documents/GitHub/RISC-5_I2C/project_RISCV_I2C/project_RISCV_I2C.srcs/sim_1/new/tb_miriscv_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_miriscv_top
+WARNING: [VRFC 10-3380] identifier 'ans' is used before its declaration [C:/Users/1/Documents/GitHub/RISC-5_I2C/project_RISCV_I2C/project_RISCV_I2C.srcs/sim_1/new/tb_miriscv_top.v:15]

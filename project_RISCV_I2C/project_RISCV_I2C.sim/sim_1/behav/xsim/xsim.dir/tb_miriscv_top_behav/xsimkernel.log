@@ -1,7 +1,4 @@
-Running: xsim.dir/tb_miriscv_top_behav/xsimk.exe -simmode gui -wdb tb_miriscv_top_behav.wdb -simrunnum 0 -socket 57392
+Running: xsim.dir/tb_miriscv_top_behav/xsimk.exe -simmode gui -wdb tb_miriscv_top_behav.wdb -simrunnum 0 -socket 57476
 Design successfully loaded
-Design Loading Memory Usage: 5904 KB (Peak: 5904 KB)
-Design Loading CPU Usage: 61 ms
-Simulation completed
-Simulation Memory Usage: 11288 KB (Peak: 11288 KB)
-Simulation CPU Usage: 733 ms
+Design Loading Memory Usage: 5960 KB (Peak: 5960 KB)
+Design Loading CPU Usage: 46 ms

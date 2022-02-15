@@ -25,7 +25,7 @@ reg [7:0] data_master;
 
   miriscv_top #(
     .RAM_SIZE       ( RAM_SIZE           ),
-    .RAM_INIT_FILE  ( "D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/I2Cver2.txt" )
+    .RAM_INIT_FILE  ( "I2Cver2.txt" )
   ) dut (
     .clk_i   ( clk     ),
     .rst_n_i ( rst_n   ),
