@@ -52,8 +52,7 @@ begin
         5'd3: if (mie[3] & int_req[3]) device_en[3] <= 1'b1;
         5'd4: if (mie[4] & int_req[4]) device_en[4] <= 1'b1;
         5'd5: if (mie[5] & int_req[5]) device_en[5] <= 1'b1;
-        // ...
-        // до 5'd31
+
         default: device_en <= 6'd0;
     endcase
     
@@ -64,8 +63,7 @@ begin
         if (device_en[3]) int_fin_reg[3] <= 1'b1;
         if (device_en[4]) int_fin_reg[4] <= 1'b1;
         if (device_en[5]) int_fin_reg[5] <= 1'b1;
-        // ...
-        // до device_en[31]
+
     end
 end
 

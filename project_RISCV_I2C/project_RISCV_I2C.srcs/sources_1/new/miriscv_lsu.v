@@ -7,23 +7,23 @@
 `define LDST_HU          3'b101
 
 module miriscv_lsu(
-                    input          clk_i,    // синхронизация
-                    input          arstn_i,  // сброс внутренних регистров   
+                    input          clk_i,
+                    input          arstn_i,
                     // memory protocol
-                    input  [31 :0] data_rdata_i,    // запрошенные данные
-                    output         data_req_o, //   1  - обратиться к памяти
-                    output         data_we_o, //   1  - это запрос на запись
-                    output [3:0]   data_be_o, // к каким байтам слова идет обращение
-                    output [31 :0] data_addr_o, // адрес, по которому идет обращение
-                    output [31 :0] data_wdata_o, // данные, которые требуется записать
+                    input  [31 :0] data_rdata_i,    // requested data
+                    output         data_req_o, //   1  - refer to memory
+                    output         data_we_o, //   1  - write request
+                    output [3:0]   data_be_o, // which bytes of the word are being accessed
+                    output [31 :0] data_addr_o, // the address to which the appeal is being sent
+                    output [31 :0] data_wdata_o, // data to be recorded
                     //   core    protocol
-                    input  [31 :0] lsu_addr_i, // адрес, по которому хотим обратиться
-                    input          lsu_we_i, //   1  - если нужно записатьв память
-                    input  [2:0]   lsu_size_i, // размер обрабатываемых данных
-                    input  [31 :0] lsu_data_i, // данные для записи в память
-                    input          lsu_req_i, //   1  - обратиться к памяти
-                    output         lsu_stall_req_o, // используетсякак !enable pc  
-                    output [31 :0] lsu_data_o // данные считанные из памяти
+                    input  [31 :0] lsu_addr_i, // the address to which we want to apply
+                    input          lsu_we_i, //   1  - write to memory
+                    input  [2:0]   lsu_size_i, // the size of the processed data
+                    input  [31 :0] lsu_data_i, // data to write to memory
+                    input          lsu_req_i, //   1  - refer to memory
+                    output         lsu_stall_req_o, // !enable pc  
+                    output [31 :0] lsu_data_o // data read from memory
     );
 reg         data_we_o_reg;
 reg [3:0]   data_be_o_reg;

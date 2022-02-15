@@ -1,6 +1,6 @@
-webtalk_init -webtalk_dir D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.sim/sim_1/behav/xsim/xsim.dir/tb_miriscv_top_behav/webtalk/
+webtalk_init -webtalk_dir C:/Users/1/Documents/GitHub/RISC-5_I2C/project_RISCV_I2C/project_RISCV_I2C.sim/sim_1/behav/xsim/xsim.dir/tb_miriscv_top_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Sun Feb 13 13:30:48 2022" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Tue Feb 15 13:18:10 2022" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2019.1 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2552052" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "571d7b5e-9f05-4c52-9169-1291424e11a4" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "ba1d0122b7bc408bb9fca6c76cdd0171" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "3" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "6" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Windows Server 2016 or Windows 10" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "Intel(R) Core(TM) i3-7020U CPU @ 2.30GHz" -context "user_environment"
@@ -26,7 +26,7 @@ webtalk_add_data -client xsim -key Command -value "xsim" -context "xsim\\command
 webtalk_add_data -client xsim -key trace_waveform -value "true" -context "xsim\\usage"
 webtalk_add_data -client xsim -key runtime -value "300 us" -context "xsim\\usage"
 webtalk_add_data -client xsim -key iteration -value "1" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Time -value "0.88_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Memory -value "11520_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 2479347454 -regid "" -xml D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.sim/sim_1/behav/xsim/xsim.dir/tb_miriscv_top_behav/webtalk/usage_statistics_ext_xsim.xml -html D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.sim/sim_1/behav/xsim/xsim.dir/tb_miriscv_top_behav/webtalk/usage_statistics_ext_xsim.html -wdm D:/programs/projects_vivado/project_RISCV_I2C/project_RISCV_I2C.sim/sim_1/behav/xsim/xsim.dir/tb_miriscv_top_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Simulation_Time -value "0.73_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Simulation_Memory -value "11292_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 2050620154 -regid "" -xml C:/Users/1/Documents/GitHub/RISC-5_I2C/project_RISCV_I2C/project_RISCV_I2C.sim/sim_1/behav/xsim/xsim.dir/tb_miriscv_top_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/1/Documents/GitHub/RISC-5_I2C/project_RISCV_I2C/project_RISCV_I2C.sim/sim_1/behav/xsim/xsim.dir/tb_miriscv_top_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/1/Documents/GitHub/RISC-5_I2C/project_RISCV_I2C/project_RISCV_I2C.sim/sim_1/behav/xsim/xsim.dir/tb_miriscv_top_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate

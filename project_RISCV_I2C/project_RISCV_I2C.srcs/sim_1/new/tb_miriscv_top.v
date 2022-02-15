@@ -26,7 +26,6 @@ reg [7:0] data_master;
   miriscv_top #(
     .RAM_SIZE       ( RAM_SIZE           ),
     .RAM_INIT_FILE  ( "D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/I2Cver2.txt" )
-    //.RAM_INIT_FILE  ( "D:/study/5_semestr/APS/labs_aps/labs_aps.srcs/sources_1/new/test_int.txt" )
   ) dut (
     .clk_i   ( clk     ),
     .rst_n_i ( rst_n   ),
@@ -43,14 +42,6 @@ reg [7:0] data_master;
     #RST_WAIT;
     rst_n = 1'b1;
     cnt_slave   <= 5'd0;
-  //#50
-  //data_in <= 5'b00001;
-  //#150
-  //data_in <= 5'b00010;
- // #150
- // data_in <= 5'b00000;
- // #150
- // data_in <= 5'b01000;
   end
 
   always begin
@@ -252,73 +243,18 @@ begin
                 state_slave <= 4'd0;
                 data_slave <= 8'd0;
             end
-            if (data_slave == 8'b01100001) begin
-                $display("a");
-                state_slave <= 4'd2;
-                data_slave <= 8'd0;
-            end
-            if (data_slave == 8'b01100100) begin
-                $display("d");
-                state_slave <= 4'd2;
-                data_slave <= 8'd0;
-            end
-            if (data_slave == 8'b01110011) begin
-                $display("r");
-                state_slave <= 4'd2;
-                data_slave <= 8'd0;
-            end
-            if (data_slave == 8'b00100000) begin
-                $display(" ");
-                state_slave <= 4'd2;
-                data_slave <= 8'd0;
-            end
-            if (data_slave == 8'b01000001) begin
-                $display("A");
-                state_slave <= 4'd2;
-                data_slave <= 8'd0;
-            end
-            if (data_slave == 8'b01000100) begin
-                $display("D");
-                state_slave <= 4'd2;
-                data_slave <= 8'd0;
-            end
-            if (data_slave == 8'b01010010) begin
-                $display("R");
-                state_slave <= 4'd2;
-                data_slave <= 8'd0;
-            end
-            if (data_slave == 8'b01011111) begin
-                $display("_");
-                state_slave <= 4'd2;
-                data_slave <= 8'd0;
-            end
-            if (data_slave == 8'b00110010) begin
-                $display("2");
-                state_slave <= 4'd2;
-                data_slave <= 8'd0;
-            end
-            if (data_slave == 8'b00110000) begin
-                $display("0");
-                state_slave <= 4'd0;
-                data_slave <= 8'd0;
-            end
             if (data_slave == 8'b00111000) begin
-                $display("2 строки, 8-битный интерфейс, шрифт 5х8 символов");
+                $display("2 strings, 8-bit interface, font 5х8 symbols");
                 state_slave <= 4'd0;
                 data_slave <= 8'd0;
             end
             if (data_slave == 8'b11000111) begin
-                $display("Печать в центре");
+                $display("Printing in the center");
                 state_slave <= 4'd0;
                 data_slave <= 8'd0;
             end            
             if (data_slave == 8'b00000111) begin
-                $display("Сдвиг экрана");
-                state_slave <= 4'd0;
-                data_slave <= 8'd0;
-            end
-            if (data_slave == 8'b00110101) begin
-                $display("5");
+                $display("Screen Shift");
                 state_slave <= 4'd0;
                 data_slave <= 8'd0;
             end
